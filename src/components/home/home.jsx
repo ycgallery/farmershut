@@ -260,11 +260,6 @@ class Home extends Component {
           <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Zap") }</Typography>
           <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Zaps help you save on gas fees. Zap directly into or out of Curve pools from the base assets." }</Typography>
         </Card>
-        <Card className={ `${classes.card} ${classes.experimental}` } onClick={ () => { this.nav('experimental') } }>
-          <WarningIcon className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Experimental") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Home for experimental vaults." }</Typography>
-        </Card>
         <Card className={ `${classes.card} ${classes.lending}` } onClick={ () => { this.nav('lending') } }>
           <img alt='' src={ require('../../assets/cream-logo.png') } width='100px' height='100px' className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Lending") }</Typography>
