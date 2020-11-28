@@ -201,10 +201,7 @@ class Header extends Component {
             { this.renderLink('dashboard') }
             { this.renderLink('vaults') }
             { this.renderLink('earn') }
-            { this.renderLink('zap') }
-            { this.renderLink('experimental') }
             { this.renderLink('stats') }
-            { this.renderLink('lending') }
           </div>
           <div className={ classes.account }>
             { address &&
