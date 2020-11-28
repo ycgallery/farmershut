@@ -1271,7 +1271,7 @@ class Store {
           poolValue: 0,
           abi: config.IEarnERC20ABI,
           version: 1,
-          disabled: false,
+          disabled: true,
           invest: 'invest',
           redeem: 'redeem',
           curve: false,
