@@ -243,7 +243,7 @@ class Home extends Component {
         <Card className={ `${classes.card} ${classes.apr}` } onClick={ () => { this.nav('dashboard') } }>
           <BarChartIcon className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>Dashboard</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how your portfolio is growing while invested in yearn's products." }</Typography>
+          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how your portfolio is growing while invested in farmer's hut products." }</Typography>
         </Card>
         <Card className={ `${classes.card} ${classes.vault}` } onClick={ () => { this.nav('vaults') }}>
           <PieChartIcon className={ `${classes.icon} icon` } />
@@ -258,7 +258,7 @@ class Home extends Component {
         <Card className={ `${classes.card} ${classes.apr}` } onClick={ () => { this.nav('stats') } }>
           <BarChartIcon className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>Stats</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how yearn's vaults are performing." }</Typography>
+          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how farmer's hut vaults are performing." }</Typography>
         </Card>
       </div>
     )
