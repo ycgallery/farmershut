@@ -1014,28 +1014,6 @@ class Store {
       }],
       assets: [
         {
-          id: 'DAIv3',
-          name: 'DAI',
-          symbol: 'DAI',
-          description: 'DAI Stablecoin',
-          investSymbol: 'yDAI',
-          erc20address: '0x6b175474e89094c44da98b954eedeac495271d0f',
-          iEarnContract: '0xC2cB1040220768554cf699b0d863A3cd4324ce32',
-          maxApr: 0,
-          balance: 0,
-          investedBalance: 0,
-          decimals: 18,
-          price: 0,
-          poolValue: 0,
-          abi: config.IEarnErc20ABIv2,
-          version: 3,
-          disabled: false,
-          invest: 'deposit',
-          redeem: 'withdraw',
-          curve: false,
-          price_id: 'dai'
-        },
-        {
           id: 'USDCv3',
           name: 'USD Coin',
           symbol: 'USDC',
