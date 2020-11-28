@@ -255,16 +255,6 @@ class Home extends Component {
           <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Earn") }</Typography>
           <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Earn performs profit switching for lending providers, moving your funds between dydx, Aave, Compound autonomously." }</Typography>
         </Card>
-        <Card className={ `${classes.card} ${classes.zap}` } onClick={ () => { this.nav('zap') } }>
-          <FlashOnIcon className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Zap") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Zaps help you save on gas fees. Zap directly into or out of Curve pools from the base assets." }</Typography>
-        </Card>
-        <Card className={ `${classes.card} ${classes.lending}` } onClick={ () => { this.nav('lending') } }>
-          <img alt='' src={ require('../../assets/cream-logo.png') } width='100px' height='100px' className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Lending") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Lending, provided by cream." }</Typography>
-        </Card>
         <Card className={ `${classes.card} ${classes.apr}` } onClick={ () => { this.nav('stats') } }>
           <BarChartIcon className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>Stats</Typography>
