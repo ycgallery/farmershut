@@ -383,6 +383,9 @@ class InvestSimple extends Component {
           <Typography variant={'h5'} className={ classes.disaclaimer }>This project is in beta. Use at your own risk.</Typography>
           <div className={ classes.intro }>
             <ToggleButtonGroup value={value} onChange={this.handleTabChange} aria-label="version" exclusive size={ 'small' }>
+              <ToggleButton value={0} aria-label="v1">
+                <Typography variant={ 'h4' }>v1</Typography>
+              </ToggleButton>
               <ToggleButton value={1} aria-label="v2">
                 <Typography variant={ 'h4' }>y.curve.fi</Typography>
               </ToggleButton>
