@@ -195,7 +195,7 @@ class Header extends Component {
               height={ '40px' }
               onClick={ () => { this.nav('') } }
             />
-            <Typography variant={ 'h3'} className={ classes.name } onClick={ () => { this.nav('') } }>farmers hut</Typography>
+            <Typography variant={ 'h3'} className={ classes.name } onClick={ () => { this.nav('') } }>farmer\'s hut</Typography>
           </div>
           <div className={ classes.links }>
             { this.renderLink('dashboard') }
