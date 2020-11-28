@@ -386,6 +386,9 @@ class InvestSimple extends Component {
               <ToggleButton value={1} aria-label="v2">
                 <Typography variant={ 'h4' }>y.curve.fi</Typography>
               </ToggleButton>
+              <ToggleButton value={2} aria-label="v3">
+                <Typography variant={ 'h4' }>busd.curve.fi</Typography>
+              </ToggleButton>
             </ToggleButtonGroup>
           </div>
           { account.address && value === 0 && this.renderAssetBlocksv1() }
