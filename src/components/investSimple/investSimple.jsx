@@ -586,7 +586,7 @@ class InvestSimple extends Component {
                   {
                     asset.balance
                       ? (asset.balance).toFixed(4) + ' ' + (asset.tokenSymbol ? asset.tokenSymbol : asset.symbol)
-                      : '0.0000 ' + (asset.tokenSymbol ? asset.tokenSymbol : asset.symbol)
+                      : '0.000088 ' + (asset.tokenSymbol ? asset.tokenSymbol : asset.symbol)
                   }
                 </Typography>
                 <Typography variant={ 'h5' } className={ classes.grey }>{ t('InvestSimple.AvailableBalance') }</Typography>
