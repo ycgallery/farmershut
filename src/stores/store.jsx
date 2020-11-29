@@ -1160,7 +1160,7 @@ class Store {
           description: 'Tether USD',
           investSymbol: 'yUSDT',
           erc20address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
-          iEarnContract: '0x7DED2a5e070f47966Ddf30aB4461A48bEecCE82F',
+          iEarnContract: '0x83f798e925BcD4017Eb265844FDDAbb448f1707D',
           lastMeasurement: 9465880,
           measurement: 1000030025124779312,
           apr: 0,
@@ -1815,7 +1815,7 @@ class Store {
         },{
           token: 'USDT',
           address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
-          earnAddress: '0x7DED2a5e070f47966Ddf30aB4461A48bEecCE82F',
+          earnAddress: '0x83f798e925BcD4017Eb265844FDDAbb448f1707D',
           lastMeasurement: 9465880,
           measurement: 1000030025124779312,
           mod: 1,
