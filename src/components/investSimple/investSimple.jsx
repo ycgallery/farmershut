@@ -511,11 +511,6 @@ class InvestSimple extends Component {
               </div>
               <div className={classes.heading}>
                 <Typography variant={ 'h3' }>
-//                  {
-  //                  asset.maxApr
-    //                  ? (asset.maxApr * 100).toFixed(4) + ' %'
-      //                : '0.0000 %'
-        //          }
                 </Typography>
                 <Typography variant={ 'h5' } className={ classes.grey }>{ t('InvestSimple.InterestRate') }</Typography>
               </div>
