@@ -521,8 +521,6 @@ class InvestSimple extends Component {
               </div>
               <div className={classes.heading}>
                 <Typography variant={ 'h3' }>
-                  {
-                  }
                 </Typography>
                 <Typography variant={ 'h5' } className={ classes.grey }>{ t('InvestSimple.AvailableBalance') }</Typography>
               </div>
