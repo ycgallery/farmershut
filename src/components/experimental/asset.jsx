@@ -251,7 +251,7 @@ class Asset extends Component {
             <Typography variant={ 'h4' } color='primary' noWrap>Warning:</Typography>
           </div>
           <div className={ classes.assetSummaryDescription }>
-            <Typography >This vault accepts CRV in exchange for perpetual claim on Curve DAO admin fees across all farmer's hut products.</Typography>
+            <Typography >This vault accepts CRV in exchange for perpetual claim on Curve DAO admin fees across all Yearn products.</Typography>
             <Typography >Since it locks CRV in Curve Voting Escrow for 4 years and regularly prolongs the lock, this vault doesn't have withdrawal functionality.</Typography>
             <Typography variant={ 'h4' }>You will NOT get your CRV back. Ever.</Typography>
           </div>

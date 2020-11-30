@@ -195,13 +195,16 @@ class Header extends Component {
               height={ '40px' }
               onClick={ () => { this.nav('') } }
             />
-            <Typography variant={ 'h3'} className={ classes.name } onClick={ () => { this.nav('') } }>farmer's hut</Typography>
+            <Typography variant={ 'h3'} className={ classes.name } onClick={ () => { this.nav('') } }>yearn.finance</Typography>
           </div>
           <div className={ classes.links }>
             { this.renderLink('dashboard') }
             { this.renderLink('vaults') }
             { this.renderLink('earn') }
+            { this.renderLink('zap') }
+            { this.renderLink('experimental') }
             { this.renderLink('stats') }
+            { this.renderLink('lending') }
           </div>
           <div className={ classes.account }>
             { address &&
