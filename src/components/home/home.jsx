@@ -243,7 +243,7 @@ class Home extends Component {
         <Card className={ `${classes.card} ${classes.apr}` } onClick={ () => { this.nav('dashboard') } }>
           <BarChartIcon className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>Dashboard</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how your portfolio is growing while invested in yearn's products." }</Typography>
+          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how your portfolio is growing while invested in farmer's hut products." }</Typography>
         </Card>
         <Card className={ `${classes.card} ${classes.vault}` } onClick={ () => { this.nav('vaults') }}>
           <PieChartIcon className={ `${classes.icon} icon` } />
@@ -255,25 +255,10 @@ class Home extends Component {
           <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Earn") }</Typography>
           <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Earn performs profit switching for lending providers, moving your funds between dydx, Aave, Compound autonomously." }</Typography>
         </Card>
-        <Card className={ `${classes.card} ${classes.zap}` } onClick={ () => { this.nav('zap') } }>
-          <FlashOnIcon className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Zap") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Zaps help you save on gas fees. Zap directly into or out of Curve pools from the base assets." }</Typography>
-        </Card>
-        <Card className={ `${classes.card} ${classes.experimental}` } onClick={ () => { this.nav('experimental') } }>
-          <WarningIcon className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Experimental") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Home for experimental vaults." }</Typography>
-        </Card>
-        <Card className={ `${classes.card} ${classes.lending}` } onClick={ () => { this.nav('lending') } }>
-          <img alt='' src={ require('../../assets/cream-logo.png') } width='100px' height='100px' className={ `${classes.icon} icon` } />
-          <Typography variant={'h3'} className={ `${classes.title} title` }>{ t("Home.Lending") }</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Lending, provided by cream." }</Typography>
-        </Card>
         <Card className={ `${classes.card} ${classes.apr}` } onClick={ () => { this.nav('stats') } }>
           <BarChartIcon className={ `${classes.icon} icon` } />
           <Typography variant={'h3'} className={ `${classes.title} title` }>Stats</Typography>
-          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how yearn's vaults are performing." }</Typography>
+          <Typography variant={'h4'} className={ `${classes.description} description` }>{ "Get a quick glance at how farmer's hut vaults are performing." }</Typography>
         </Card>
       </div>
     )
